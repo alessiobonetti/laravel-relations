@@ -21,7 +21,7 @@ class CreateComicsTable extends Migration
             $table->smallInteger("comic_number");
             $table->smallInteger("n_pages");
             $table->string("edition",50);
-            $table->string("rading",3);
+            $table->string("reading",3);
             $table->float("price", 6,2);
             $table->boolean("colored")->default(false);
             $table->year("release");
